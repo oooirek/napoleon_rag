@@ -1,0 +1,71 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+
+# --- Virtualenv / Poetry ---
+.env
+.venv
+venv/
+ENV/
+.envrc
+.poetry/
+
+# --- Caches ---
+.cache/
+.pytest_cache/
+.mypy_cache/
+coverage/
+htmlcov/
+.tox/
+celerybeat-schedule
+celerybeat.pid
+
+# --- IDE / Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# --- Logs ---
+*.log
+logs/
+*.out
+
+# --- Environment / Config ---
+.env
+.env.*
+!.env.example
+*.local
+config/*.secret.yaml
+config/*.local.yaml
+
+# --- Docker ---
+docker-compose.override.yml
+*.pid
+
+# --- Build / Dist ---
+build/
+dist/
+*.manifest
+*.spec
+
+# --- Node (если фронт в репо) ---
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+
+
+
+/docs/
+.run/
