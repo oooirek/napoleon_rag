@@ -4,8 +4,8 @@ from src.rag.container import RAGContainer
 from src.rag.retriever import CustomRetriever
 
 PROMPT = ChatPromptTemplate.from_template(
-	"""Ты — помощник, отвечающий ТОЛЬКО на русском языке. Использую ТОЛЬКО тот контекст который у тебя есть
-
+	"""Ты — помощник, отвечающий ТОЛЬКО на русском языке. Использую ТОЛЬКО тот контекст который у тебя есть. 
+	
     Контекст:
     {context}
 
